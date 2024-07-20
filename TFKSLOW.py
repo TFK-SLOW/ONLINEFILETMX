@@ -2,7 +2,7 @@ import requests
 from time import sleep
 BASE_URL: str = "https://cpmking.cpmewan.com/api"
 
-class CPMKing:
+class TFKSLOW:
 
     def __init__(self, access_key) -> None:
         self.auth_token = None
