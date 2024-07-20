@@ -9,7 +9,7 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 
-from ONLINEFILETMX import TFK-SLOW
+from TFK-SLOW import ONLINEFILETMX
 
 __CHANNEL_USERNAME__ = "cpm1999king"
 __GROUP_USERNAME__ = "cpm19_99king"
