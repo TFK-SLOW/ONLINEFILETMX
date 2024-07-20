@@ -34,8 +34,8 @@ def banner(console):
                  ╱╱┃┃╱┃╰━╯┃╰━╯┃╰━╯┃╰━╯┃
                  ╱╱╰╯╱╰━━━┻━━━┻━━━┻━━━╯"""
     
-    start_color = Color.parse("#28e99a")
-    end_color = Color.parse("#cbd31a")
+    start_color = Color.parse("#c90202")
+    end_color = Color.parse("#ff2121")
     start_rgb = np.array(start_color.triplet)
     end_rgb = np.array(end_color.triplet)
     lines = ascii_art.split("\n")
@@ -53,7 +53,7 @@ def banner(console):
                 gradient_text.append(char)
         gradient_text.append("\n")
     console.print(gradient_text)
-    console.print("\t\t      [bold green]♕ 𝐂𝐏𝐌 𝐒𝐋𝐎𝐖 ♕[/bold green]")
+    console.print("\t\t      [bold red]♕ 𝐂𝐏𝐌 𝐒𝐋𝐎𝐖 ♕[/bold red]")
     console.print("\t  𝐂𝐀𝐑 𝐏𝐀𝐑𝐊𝐈𝐍𝐆 𝐌𝐔𝐋𝐓𝐈𝐏𝐋𝐀𝐘𝐄𝐑 𝐇𝐀𝐂𝐊𝐈𝐍𝐆 𝐓𝐎𝐎𝐋")
     console.print("      𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     
