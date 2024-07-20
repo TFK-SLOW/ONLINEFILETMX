@@ -55,7 +55,7 @@ def banner(console):
     console.print(gradient_text)
     console.print("\t\t      [bold green]♕ 𝐂𝐏𝐌 𝐒𝐋𝐎𝐖 ♕[/bold green]")
     console.print("\t  𝐂𝐀𝐑 𝐏𝐀𝐑𝐊𝐈𝐍𝐆 𝐌𝐔𝐋𝐓𝐈𝐏𝐋𝐀𝐘𝐄𝐑 𝐇𝐀𝐂𝐊𝐈𝐍𝐆 𝐓𝐎𝐎𝐋")
-    console.print("       𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
+    console.print("      𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     
 def load_player_data(cpm):
     response = cpm.get_player_data()
