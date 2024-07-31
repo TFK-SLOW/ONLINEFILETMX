@@ -1,8 +1,15 @@
 import requests
+# import json
 from time import sleep
-BASE_URL: str = "https://cpmking.cpmewan.com/api"
 
-class ONLINEFILETMX:
+# Copyright (C) Anasov <me@anasov.ly> - All Rights Reserved
+# Unauthorized copying of this file, via any medium is strictly prohibited
+# Proprietary and confidential
+# Written by Anasov <me@anasov.ly>, 05, May, 2024.
+
+BASE_URL: str = "https://cpmnuker.anasov.ly/api"
+
+class CPMNuker:
 
     def __init__(self, access_key) -> None:
         self.auth_token = None
